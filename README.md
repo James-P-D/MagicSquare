@@ -34,7 +34,7 @@ So for example, given the following partial board...
 The program was tested using on [SWI-Prolog](https://www.swi-prolog.org/). To load the script:
 
 ```
-consult('C:\\Users\\jdorr\\OneDrive\\Desktop\\Dev\\MagicSquare\\src\\magic_square.pl').
+?- consult('C:\\Users\\jdorr\\OneDrive\\Desktop\\Dev\\MagicSquare\\src\\magic_square.pl').
 ```
 
 We can solve our example above with:
@@ -54,7 +54,7 @@ false
 We can also find all possible solutions for an empty board:
 
 ```
-5 ?- display_magic_square(X).
+?- display_magic_square(X).
 
  2 | 7 | 6
 ---+---+---
